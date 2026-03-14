@@ -1,0 +1,1 @@
+import o from"./Form--o6sOkXN.js";import{c as r,o as c}from"./app-D8PvHl2J.js";import"./AuthenticatedLayout-CuMdZuem.js";import"./ApplicationLogo-DqU5siU2.js";import"./_plugin-vue_export-helper-DlAUqK2U.js";const s={__name:"Edit",props:{product:Object},setup(t){return(p,e)=>(c(),r(o,{product:t.product},null,8,["product"]))}};export{s as default};
