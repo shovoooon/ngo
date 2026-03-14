@@ -1,0 +1,18 @@
+vite v7.3.1 building client environment for production...
+transforming...
+✓ 19 modules transformed.
+✗ Build failed in 307ms
+error during build:
+[vite:vue] [plugin vite:vue] resources/js/Pages/Members/Show.vue (33:21): Invalid end tag.
+file: /Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/resources/js/Pages/Members/Show.vue:33:21
+SyntaxError: [plugin vite:vue] resources/js/Pages/Members/Show.vue (33:21): Invalid end tag.
+    at createCompilerError (/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/@vue/compiler-core/dist/compiler-core.cjs.prod.js:1374:17)
+    at emitError (/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/@vue/compiler-core/dist/compiler-core.cjs.prod.js:2980:5)
+    at Object.onclosetag (/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/@vue/compiler-core/dist/compiler-core.cjs.prod.js:2387:9)
+    at Tokenizer.stateInClosingTagName (/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/@vue/compiler-core/dist/compiler-core.cjs.prod.js:799:16)
+    at Tokenizer.parse (/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/@vue/compiler-core/dist/compiler-core.cjs.prod.js:1157:16)
+    at Object.baseParse (/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/@vue/compiler-core/dist/compiler-core.cjs.prod.js:3012:13)
+    at Object.parse (/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.prod.js:665:23)
+    at Object.parse$1 [as parse] (/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/@vue/compiler-sfc/dist/compiler-sfc.cjs.js:1824:24)
+    at createDescriptor (file:///Volumes/Samsung%20NVMe/Development/web_projects/laravel_projects/ngo/node_modules/@vitejs/plugin-vue/dist/index.mjs:71:43)
+    at transformMain (file:///Volumes/Samsung%20NVMe/Development/web_projects/laravel_projects/ngo/node_modules/@vitejs/plugin-vue/dist/index.mjs:2421:34)

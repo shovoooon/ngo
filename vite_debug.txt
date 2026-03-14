@@ -1,0 +1,1283 @@
+2026-03-13T05:32:43.998Z vite:config config file loaded in 38.09ms
+2026-03-13T05:32:43.999Z vite:env loading env files: [
+  '/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/.env',
+  '/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/.env.local',
+  '/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/.env.production',
+  '/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/.env.production.local'
+]
+2026-03-13T05:32:44.000Z vite:env env files loaded in 0.59ms
+2026-03-13T05:32:44.001Z vite:env using resolved env: {
+  APP_NAME: 'Laravel',
+  APP_ENV: 'local',
+  APP_KEY: 'base64:YBYHRYWkMemahMpaSwCJFh/qP7sI0ndBK7wXi1/4TsE=',
+  APP_DEBUG: 'true',
+  APP_URL: 'http://localhost',
+  APP_LOCALE: 'en',
+  APP_FALLBACK_LOCALE: 'en',
+  APP_FAKER_LOCALE: 'en_US',
+  APP_MAINTENANCE_DRIVER: 'file',
+  BCRYPT_ROUNDS: '12',
+  LOG_CHANNEL: 'stack',
+  LOG_STACK: 'single',
+  LOG_DEPRECATIONS_CHANNEL: 'null',
+  LOG_LEVEL: 'debug',
+  DB_CONNECTION: 'mysql',
+  DB_HOST: '127.0.0.1',
+  DB_PORT: '3306',
+  DB_SOCKET: '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock',
+  DB_DATABASE: 'ngo',
+  DB_USERNAME: 'root',
+  DB_PASSWORD: '',
+  SESSION_DRIVER: 'database',
+  SESSION_LIFETIME: '120',
+  SESSION_ENCRYPT: 'false',
+  SESSION_PATH: '/',
+  SESSION_DOMAIN: 'null',
+  BROADCAST_CONNECTION: 'log',
+  FILESYSTEM_DISK: 'local',
+  QUEUE_CONNECTION: 'database',
+  CACHE_STORE: 'database',
+  MEMCACHED_HOST: '127.0.0.1',
+  REDIS_CLIENT: 'phpredis',
+  REDIS_HOST: '127.0.0.1',
+  REDIS_PASSWORD: 'null',
+  REDIS_PORT: '6379',
+  MAIL_MAILER: 'log',
+  MAIL_SCHEME: 'null',
+  MAIL_HOST: '127.0.0.1',
+  MAIL_PORT: '2525',
+  MAIL_USERNAME: 'null',
+  MAIL_PASSWORD: 'null',
+  MAIL_FROM_ADDRESS: 'hello@example.com',
+  MAIL_FROM_NAME: 'Laravel',
+  AWS_ACCESS_KEY_ID: '',
+  AWS_SECRET_ACCESS_KEY: '',
+  AWS_DEFAULT_REGION: 'us-east-1',
+  AWS_BUCKET: '',
+  AWS_USE_PATH_STYLE_ENDPOINT: 'false',
+  VITE_APP_NAME: 'Laravel',
+  ANTIGRAVITY_AGENT: '1',
+  TERM_PROGRAM: 'vscode',
+  NODE: '/opt/homebrew/Cellar/node/23.6.1/bin/node',
+  INIT_CWD: '/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo',
+  ANDROID_HOME: '/Users/shovon/Library/Android/sdk',
+  TERM: 'xterm-256color',
+  SHELL: '/bin/zsh',
+  HOMEBREW_REPOSITORY: '/opt/homebrew',
+  TMPDIR: '/var/folders/ks/1wc1tvrd5yzbt44n7zmj8m7m0000gn/T/',
+  npm_config_global_prefix: '/opt/homebrew',
+  VSCODE_PYTHON_AUTOACTIVATE_GUARD: '1',
+  TERM_PROGRAM_VERSION: '1.107.0',
+  ZDOTDIR: '/Users/shovon',
+  MallocNanoZone: '0',
+  COLOR: '0',
+  npm_config_noproxy: '',
+  npm_config_local_prefix: '/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo',
+  USER: 'shovon',
+  COMMAND_MODE: 'unix2003',
+  npm_config_globalconfig: '/opt/homebrew/etc/npmrc',
+  SSH_AUTH_SOCK: '/private/tmp/com.apple.launchd.e7UldvSAPP/Listeners',
+  VSCODE_PROFILE_INITIALIZED: '1',
+  __CF_USER_TEXT_ENCODING: '0x1F5:0x0:0x0',
+  npm_execpath: '/opt/homebrew/lib/node_modules/npm/bin/npm-cli.js',
+  PAGER: 'cat',
+  PATH: '/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/.bin:/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/.bin:/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/node_modules/.bin:/Volumes/Samsung NVMe/Development/web_projects/node_modules/.bin:/Volumes/Samsung NVMe/Development/node_modules/.bin:/Volumes/Samsung NVMe/node_modules/.bin:/Volumes/node_modules/.bin:/node_modules/.bin:/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/Users/shovon/.antigravity/antigravity/bin:/Users/shovon/Library/Android/sdk/emulator:/Users/shovon/Library/Android/sdk/platform-tools:/Users/shovon/dev/flutter/bin:/opt/homebrew/bin:/Users/shovon/.pub-cache/bin:.composer/vendor/bin:/usr/local/mysql/bin:/opt/homebrew/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/pmk/env/global/bin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/shovon/.antigravity/antigravity/bin:/Users/shovon/Library/Android/sdk/emulator:/Users/shovon/Library/Android/sdk/platform-tools:/Users/shovon/dev/flutter/bin:/Users/shovon/.pub-cache/bin:.composer/vendor/bin:/usr/local/mysql/bin',
+  npm_package_json: '/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/package.json',
+  _: '/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/.bin/vite',
+  npm_config_userconfig: '/Users/shovon/.npmrc',
+  npm_config_init_module: '/Users/shovon/.npm-init.js',
+  USER_ZDOTDIR: '/Users/shovon',
+  __CFBundleIdentifier: 'com.google.antigravity',
+  npm_command: 'exec',
+  PWD: '/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo',
+  npm_lifecycle_event: 'npx',
+  EDITOR: 'vi',
+  LANG: 'C.UTF-8',
+  npm_config_npm_version: '10.9.2',
+  VSCODE_GIT_ASKPASS_EXTRA_ARGS: '',
+  XPC_FLAGS: '0x0',
+  npm_config_node_gyp: '/opt/homebrew/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js',
+  XPC_SERVICE_NAME: '0',
+  VSCODE_INJECTION: '1',
+  ANTIGRAVITY_CLI_ALIAS: 'agy',
+  SHLVL: '2',
+  HOME: '/Users/shovon',
+  VSCODE_GIT_ASKPASS_MAIN: '/Applications/Antigravity.app/Contents/Resources/app/extensions/git/dist/askpass-main.js',
+  HOMEBREW_PREFIX: '/opt/homebrew',
+  npm_config_cache: '/Users/shovon/.npm',
+  LOGNAME: 'shovon',
+  npm_lifecycle_script: 'vite',
+  VSCODE_GIT_IPC_HANDLE: '/var/folders/ks/1wc1tvrd5yzbt44n7zmj8m7m0000gn/T/vscode-git-c71f56927e.sock',
+  npm_config_user_agent: 'npm/10.9.2 node/v23.6.1 darwin arm64 workspaces/false',
+  VSCODE_GIT_ASKPASS_NODE: '/Applications/Antigravity.app/Contents/Frameworks/Antigravity Helper (Plugin).app/Contents/MacOS/Antigravity Helper (Plugin)',
+  GIT_ASKPASS: '/Applications/Antigravity.app/Contents/Resources/app/extensions/git/dist/askpass.sh',
+  INFOPATH: '/opt/homebrew/share/info:/opt/homebrew/share/info:',
+  HOMEBREW_CELLAR: '/opt/homebrew/Cellar',
+  OSLogRateLimit: '64',
+  npm_node_execpath: '/opt/homebrew/Cellar/node/23.6.1/bin/node',
+  npm_config_prefix: '/opt/homebrew',
+  COLORTERM: 'truecolor',
+  DEBUG: 'vite:*',
+  NODE_ENV: 'production'
+}
+2026-03-13T05:32:44.001Z vite:env loading env files: [
+  '/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/.env',
+  '/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/.env.local',
+  '/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/.env.production',
+  '/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/.env.production.local'
+]
+2026-03-13T05:32:44.001Z vite:env env files loaded in 0.13ms
+2026-03-13T05:32:44.002Z vite:env using resolved env: { VITE_APP_NAME: 'Laravel' }
+2026-03-13T05:32:44.019Z vite:config using resolved config: {
+  plugins: [
+    'vite:build-metadata',
+    'vite:watch-package-data',
+    'alias',
+    'vite:modulepreload-polyfill',
+    'vite:resolve',
+    'vite:html-inline-proxy',
+    'vite:css',
+    'vite:esbuild',
+    'vite:json',
+    'vite:wasm-helper',
+    'vite:worker',
+    'vite:asset',
+    'vite:vue',
+    'vite:wasm-fallback',
+    'vite:define',
+    'vite:css-post',
+    'vite:build-html',
+    'vite:worker-import-meta-url',
+    'vite:asset-import-meta-url',
+    'vite:force-amd-wrap-require',
+    'vite:force-systemjs-wrap-complete',
+    'vite:prepare-out-dir',
+    'commonjs',
+    'vite:data-uri',
+    'vite:rollup-options-plugins',
+    'vite:dynamic-import-vars',
+    'vite:import-glob',
+    'laravel',
+    'vite:build-import-analysis',
+    'vite:esbuild-transpile',
+    'vite:terser',
+    'vite:license',
+    'vite:manifest',
+    'vite:ssr-manifest',
+    'vite:reporter',
+    'vite:load-fallback'
+  ],
+  resolve: {
+    externalConditions: [ 'node', 'module-sync' ],
+    extensions: [
+      '.mjs',  '.js',
+      '.mts',  '.ts',
+      '.jsx',  '.tsx',
+      '.json'
+    ],
+    dedupe: [ 'vue' ],
+    noExternal: [],
+    external: [],
+    preserveSymlinks: false,
+    alias: [
+      { find: '@lang', replacement: '/lang' },
+      { find: '@', replacement: '/resources/js' },
+      {
+        find: /^\/?@vite\/env/,
+        replacement: '/@fs/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/vite/dist/client/env.mjs'
+      },
+      {
+        find: /^\/?@vite\/client/,
+        replacement: '/@fs/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/vite/dist/client/client.mjs'
+      }
+    ],
+    mainFields: [ 'browser', 'module', 'jsnext:main', 'jsnext' ],
+    conditions: [ 'module', 'browser', 'development|production' ],
+    builtins: []
+  },
+  build: {
+    target: [ 'chrome107', 'edge107', 'firefox104', 'safari16' ],
+    polyfillModulePreload: true,
+    modulePreload: { polyfill: true },
+    outDir: 'public/build',
+    assetsDir: 'assets',
+    assetsInlineLimit: 0,
+    sourcemap: false,
+    terserOptions: {},
+    rollupOptions: { input: 'resources/js/app.js' },
+    commonjsOptions: { include: [ /node_modules/ ], extensions: [ '.js', '.cjs' ] },
+    dynamicImportVarsOptions: { warnOnError: true, exclude: [ /node_modules/ ] },
+    write: true,
+    emptyOutDir: null,
+    copyPublicDir: true,
+    license: false,
+    manifest: 'manifest.json',
+    lib: false,
+    ssrManifest: false,
+    ssrEmitAssets: false,
+    reportCompressedSize: true,
+    chunkSizeWarningLimit: 500,
+    watch: null,
+    cssCodeSplit: true,
+    minify: 'esbuild',
+    ssr: false,
+    emitAssets: true,
+    createEnvironment: [Function: createEnvironment],
+    cssTarget: [ 'chrome107', 'edge107', 'firefox104', 'safari16' ],
+    cssMinify: true
+  },
+  define: {
+    __VUE_OPTIONS_API__: true,
+    __VUE_PROD_DEVTOOLS__: false,
+    __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: false
+  },
+  ssr: {
+    target: 'node',
+    optimizeDeps: {
+      esbuildOptions: { preserveSymlinks: false },
+      include: [],
+      exclude: [],
+      needsInterop: [],
+      extensions: [],
+      holdUntilCrawlEnd: true,
+      force: false,
+      ignoreOutdatedRequests: false,
+      noDiscovery: true
+    },
+    external: [],
+    noExternal: [ 'laravel-vite-plugin' ],
+    resolve: {
+      conditions: [ 'module', 'node', 'development|production' ],
+      externalConditions: [ 'node', 'module-sync' ]
+    }
+  },
+  base: '/build/',
+  publicDir: '',
+  server: {
+    port: 5173,
+    strictPort: false,
+    host: undefined,
+    allowedHosts: [
+      '__laravel_vite_placeholder__.test',
+      '__laravel_vite_placeholder__.test'
+    ],
+    https: undefined,
+    open: false,
+    proxy: undefined,
+    cors: {
+      origin: [
+        /^https?:\/\/(?:(?:[^:]+\.)?localhost|127\.0\.0\.1|\[::1\])(?::\d+)?$/,
+        'http://localhost',
+        /^https?:\/\/.*\.test(:\d+)?$/
+      ]
+    },
+    headers: {},
+    warmup: { clientFiles: [], ssrFiles: [] },
+    middlewareMode: false,
+    fs: {
+      strict: true,
+      deny: [ '.env', '.env.*', '*.{crt,pem}', '**/.git/**' ],
+      allow: [
+        '/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo'
+      ]
+    },
+    preTransformRequests: true,
+    perEnvironmentStartEndDuringDev: false,
+    perEnvironmentWatchChangeDuringDev: false,
+    sourcemapIgnoreList: [Function: isInNodeModules],
+    origin: 'http://__laravel_vite_placeholder__.test'
+  },
+  environments: {
+    client: {
+      define: {
+        __VUE_OPTIONS_API__: true,
+        __VUE_PROD_DEVTOOLS__: false,
+        __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: false
+      },
+      resolve: {
+        externalConditions: [ 'node', 'module-sync' ],
+        extensions: [
+          '.mjs',  '.js',
+          '.mts',  '.ts',
+          '.jsx',  '.tsx',
+          '.json'
+        ],
+        dedupe: [ 'vue' ],
+        noExternal: [],
+        external: [],
+        preserveSymlinks: false,
+        alias: [
+          { find: '@lang', replacement: '/lang' },
+          { find: '@', replacement: '/resources/js' },
+          {
+            find: /^\/?@vite\/env/,
+            replacement: '/@fs/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/vite/dist/client/env.mjs'
+          },
+          {
+            find: /^\/?@vite\/client/,
+            replacement: '/@fs/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/vite/dist/client/client.mjs'
+          }
+        ],
+        mainFields: [ 'browser', 'module', 'jsnext:main', 'jsnext' ],
+        conditions: [ 'module', 'browser', 'development|production' ],
+        builtins: []
+      },
+      keepProcessEnv: false,
+      consumer: 'client',
+      optimizeDeps: {
+        include: [],
+        exclude: [],
+        needsInterop: [],
+        extensions: [],
+        disabled: undefined,
+        holdUntilCrawlEnd: true,
+        force: false,
+        ignoreOutdatedRequests: false,
+        noDiscovery: false,
+        esbuildOptions: { preserveSymlinks: false }
+      },
+      dev: {
+        warmup: [],
+        sourcemap: { js: true },
+        sourcemapIgnoreList: [Function: isInNodeModules],
+        preTransformRequests: true,
+        createEnvironment: [Function: defaultCreateClientDevEnvironment],
+        recoverable: true,
+        moduleRunnerTransform: false
+      },
+      build: {
+        target: [ 'chrome107', 'edge107', 'firefox104', 'safari16' ],
+        polyfillModulePreload: true,
+        modulePreload: { polyfill: true },
+        outDir: 'public/build',
+        assetsDir: 'assets',
+        assetsInlineLimit: 0,
+        sourcemap: false,
+        terserOptions: {},
+        rollupOptions: { input: 'resources/js/app.js' },
+        commonjsOptions: { include: [ /node_modules/ ], extensions: [ '.js', '.cjs' ] },
+        dynamicImportVarsOptions: { warnOnError: true, exclude: [ /node_modules/ ] },
+        write: true,
+        emptyOutDir: null,
+        copyPublicDir: true,
+        license: false,
+        manifest: 'manifest.json',
+        lib: false,
+        ssrManifest: false,
+        ssrEmitAssets: false,
+        reportCompressedSize: true,
+        chunkSizeWarningLimit: 500,
+        watch: null,
+        cssCodeSplit: true,
+        minify: 'esbuild',
+        ssr: false,
+        emitAssets: true,
+        createEnvironment: [Function: createEnvironment],
+        cssTarget: [ 'chrome107', 'edge107', 'firefox104', 'safari16' ],
+        cssMinify: true
+      },
+      plugins: [
+        {
+          name: 'vite:build-metadata',
+          renderChunk: [AsyncFunction: renderChunk]
+        },
+        {
+          name: 'vite:watch-package-data',
+          buildStart: [Function: buildStart],
+          buildEnd: [Function: buildEnd],
+          watchChange: [Function: watchChange]
+        },
+        {
+          name: 'alias',
+          buildStart: [AsyncFunction: buildStart],
+          resolveId: [Function: resolveId]
+        },
+        {
+          name: 'vite:modulepreload-polyfill',
+          resolveId: {
+            filter: { id: /^vite\/modulepreload\-polyfill$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ vite\/modulepreload\-polyfill\.js$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:resolve',
+          resolveId: {
+            filter: { id: { exclude: /^(?:\0|\/?virtual:)/ } },
+            handler: [AsyncFunction: handler]
+          },
+          load: {
+            filter: {
+              id: [
+                /^__vite\-browser\-external/,
+                /^__vite\-optional\-peer\-dep/
+              ]
+            },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:html-inline-proxy',
+          resolveId: {
+            filter: { id: /[?&]html-proxy\b/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /[?&]html-proxy\b/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:css',
+          buildStart: [Function: buildStart],
+          buildEnd: [Function: buildEnd],
+          load: {
+            filter: {
+              id: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                include: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/,
+                exclude: [
+                  /[?&]commonjs-proxy/,
+                  /[?&](?:worker|sharedworker|raw|url)\b/
+                ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'vite:esbuild',
+          configureServer: [Function: configureServer],
+          transform: [AsyncFunction: transform]
+        },
+        {
+          name: 'vite:json',
+          transform: {
+            filter: {
+              id: {
+                include: /\.json(?:$|\?)(?!commonjs-(?:proxy|external))/,
+                exclude: /[?&](?:worker|sharedworker|raw|url)\b/
+              }
+            },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:wasm-helper',
+          resolveId: {
+            filter: { id: /^ vite\/wasm\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: [
+                /^ vite\/wasm\-helper\.js$/,
+                /(?<![?#].*)\.wasm\?init/
+              ]
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'vite:worker',
+          buildStart: [Function: buildStart],
+          load: {
+            filter: { id: /(?:\?|&)(worker|sharedworker)(?:&|$)/ },
+            handler: [AsyncFunction: handler]
+          },
+          transform: {
+            filter: { id: /(?:\?|&)worker_file&type=(\w+)(?:&|$)/ },
+            handler: [AsyncFunction: handler]
+          },
+          renderChunk: [Function: renderChunk],
+          generateBundle: [Function: generateBundle],
+          watchChange: [Function: watchChange]
+        },
+        {
+          name: 'vite:asset',
+          perEnvironmentStartEndDuringDev: true,
+          buildStart: [Function: buildStart],
+          resolveId: { handler: [Function: handler] },
+          load: {
+            filter: { id: { exclude: /^\0/ } },
+            handler: [AsyncFunction: handler]
+          },
+          renderChunk: [Function: renderChunk],
+          generateBundle: [Function: generateBundle]
+        },
+        {
+          name: 'vite:vue',
+          api: { options: [Getter/Setter], version: '5.2.4' },
+          handleHotUpdate: [Function: handleHotUpdate],
+          config: [Function: config],
+          configResolved: [Function: configResolved],
+          shouldTransformCachedModule: [Function: shouldTransformCachedModule],
+          configureServer: [Function: configureServer],
+          buildStart: [Function: buildStart],
+          resolveId: [AsyncFunction: resolveId],
+          load: [Function: load],
+          transform: [Function: transform]
+        },
+        {
+          name: 'vite:wasm-fallback',
+          load: { filter: { id: /\.wasm$/ }, handler: [Function: handler] }
+        },
+        {
+          name: 'vite:define',
+          transform: { handler: [AsyncFunction: handler] }
+        },
+        {
+          name: 'vite:css-post',
+          renderStart: [Function: renderStart],
+          transform: {
+            filter: {
+              id: {
+                include: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/,
+                exclude: [
+                  /[?&]commonjs-proxy/,
+                  /[?&](?:worker|sharedworker|raw|url)\b/
+                ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          },
+          renderChunk: [AsyncFunction: renderChunk],
+          augmentChunkHash: [Function: augmentChunkHash],
+          generateBundle: [AsyncFunction: generateBundle]
+        },
+        {
+          name: 'vite:build-html',
+          transform: {
+            filter: { id: /\.html$/ },
+            handler: [AsyncFunction: handler]
+          },
+          generateBundle: [AsyncFunction: generateBundle]
+        },
+        {
+          name: 'vite:worker-import-meta-url',
+          applyToEnvironment: [Function: applyToEnvironment],
+          transform: {
+            filter: {
+              code: /new\s+(?:Worker|SharedWorker)\s*\(\s*new\s+URL.+?import\.meta\.url/s
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'vite:asset-import-meta-url',
+          applyToEnvironment: [Function: applyToEnvironment],
+          transform: {
+            filter: {
+              id: {
+                exclude: [
+                  /^ vite\/preload\-helper\.js$/,
+                  /^\/Volumes\/Samsung NVMe\/Development\/web_projects\/laravel_projects\/ngo\/node_modules\/vite\/dist\/client\/client\.mjs$/
+                ]
+              },
+              code: /new\s+URL.+import\.meta\.url/s
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'vite:force-amd-wrap-require',
+          renderChunk: [Function: renderChunk]
+        },
+        {
+          name: 'vite:force-systemjs-wrap-complete',
+          renderChunk: [Function: renderChunk]
+        },
+        {
+          name: 'vite:prepare-out-dir',
+          options: [Function: options],
+          renderStart: { order: 'pre', handler: [Function: handler] }
+        },
+        {
+          name: 'commonjs',
+          version: '29.0.0',
+          options: [Function: options],
+          buildStart: [Function: buildStart],
+          buildEnd: [Function: buildEnd],
+          load: [AsyncFunction: load],
+          shouldTransformCachedModule: [Function: shouldTransformCachedModule],
+          transform: [Function: transform]
+        },
+        {
+          name: 'vite:data-uri',
+          buildStart: [Function: buildStart],
+          resolveId: [Function: resolveId],
+          load: [Function: load]
+        },
+        {
+          name: 'vite:dynamic-import-vars',
+          resolveId: {
+            filter: { id: /^ vite\/dynamic\-import\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ vite\/dynamic\-import\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                exclude: /^\/Volumes\/Samsung NVMe\/Development\/web_projects\/laravel_projects\/ngo\/node_modules\/vite\/dist\/client\/client\.mjs$/
+              },
+              code: /\bimport\s*[(/]/
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'vite:import-glob',
+          buildStart: [Function: buildStart],
+          transform: {
+            filter: { code: 'import.meta.glob' },
+            handler: [AsyncFunction: handler]
+          },
+          hotUpdate: [Function: hotUpdate]
+        },
+        {
+          name: 'laravel',
+          enforce: 'post',
+          config: [Function: config],
+          configResolved: [Function: configResolved],
+          transform: [Function: transform],
+          configureServer: [Function: configureServer]
+        },
+        {
+          name: 'vite:build-import-analysis',
+          resolveId: {
+            filter: { id: /^ vite\/preload\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ vite\/preload\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          transform: {
+            filter: { code: /import\s*\(/ },
+            handler: [AsyncFunction: handler]
+          },
+          renderChunk: [Function: renderChunk],
+          generateBundle: [Function: generateBundle]
+        },
+        {
+          name: 'vite:esbuild-transpile',
+          applyToEnvironment: [Function: applyToEnvironment],
+          renderChunk: [AsyncFunction: renderChunk]
+        },
+        {
+          name: 'vite:terser',
+          applyToEnvironment: [Function: applyToEnvironment],
+          renderChunk: [AsyncFunction: renderChunk],
+          closeBundle: [Function: closeBundle]
+        },
+        {
+          name: 'vite:license',
+          generateBundle: [AsyncFunction: generateBundle]
+        },
+        {
+          name: 'vite:manifest',
+          perEnvironmentStartEndDuringDev: true,
+          applyToEnvironment: [Function: applyToEnvironment],
+          buildStart: [Function: buildStart],
+          generateBundle: [Function: generateBundle]
+        },
+        {
+          name: 'vite:reporter',
+          sharedDuringBuild: true,
+          perEnvironmentStartEndDuringDev: true,
+          transform: [Function: transform],
+          buildStart: [Function: buildStart],
+          buildEnd: [Function: buildEnd],
+          renderStart: [Function: renderStart],
+          renderChunk: [Function: renderChunk],
+          generateBundle: [Function: generateBundle],
+          writeBundle: [AsyncFunction: writeBundle]
+        },
+        {
+          name: 'vite:load-fallback',
+          load: { handler: [AsyncFunction: handler] }
+        }
+      ]
+    },
+    ssr: {
+      define: {
+        __VUE_OPTIONS_API__: true,
+        __VUE_PROD_DEVTOOLS__: false,
+        __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: false
+      },
+      resolve: {
+        externalConditions: [ 'node', 'module-sync' ],
+        extensions: [
+          '.mjs',  '.js',
+          '.mts',  '.ts',
+          '.jsx',  '.tsx',
+          '.json'
+        ],
+        dedupe: [ 'vue' ],
+        noExternal: [ 'laravel-vite-plugin' ],
+        external: [],
+        preserveSymlinks: false,
+        alias: [
+          { find: '@lang', replacement: '/lang' },
+          { find: '@', replacement: '/resources/js' },
+          {
+            find: /^\/?@vite\/env/,
+            replacement: '/@fs/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/vite/dist/client/env.mjs'
+          },
+          {
+            find: /^\/?@vite\/client/,
+            replacement: '/@fs/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/vite/dist/client/client.mjs'
+          }
+        ],
+        mainFields: [ 'module', 'jsnext:main', 'jsnext' ],
+        conditions: [ 'module', 'node', 'development|production' ],
+        builtins: [
+          '_http_agent',         '_http_client',        '_http_common',
+          '_http_incoming',      '_http_outgoing',      '_http_server',
+          '_stream_duplex',      '_stream_passthrough', '_stream_readable',
+          '_stream_transform',   '_stream_wrap',        '_stream_writable',
+          '_tls_common',         '_tls_wrap',           'assert',
+          'assert/strict',       'async_hooks',         'buffer',
+          'child_process',       'cluster',             'console',
+          'constants',           'crypto',              'dgram',
+          'diagnostics_channel', 'dns',                 'dns/promises',
+          'domain',              'events',              'fs',
+          'fs/promises',         'http',                'http2',
+          'https',               'inspector',           'inspector/promises',
+          'module',              'net',                 'os',
+          'path',                'path/posix',          'path/win32',
+          'perf_hooks',          'process',             'punycode',
+          'querystring',         'readline',            'readline/promises',
+          'repl',                'stream',              'stream/consumers',
+          'stream/promises',     'stream/web',          'string_decoder',
+          'sys',                 'timers',              'timers/promises',
+          'tls',                 'trace_events',        'tty',
+          'url',                 'util',                'util/types',
+          'v8',                  'vm',                  'wasi',
+          'worker_threads',      'zlib',                /^node:/,
+          /^bun:/
+        ]
+      },
+      keepProcessEnv: true,
+      consumer: 'server',
+      optimizeDeps: {
+        include: [],
+        exclude: [],
+        needsInterop: [],
+        extensions: [],
+        disabled: undefined,
+        holdUntilCrawlEnd: true,
+        force: false,
+        ignoreOutdatedRequests: false,
+        noDiscovery: true,
+        esbuildOptions: { preserveSymlinks: false }
+      },
+      dev: {
+        warmup: [],
+        sourcemap: { js: true },
+        sourcemapIgnoreList: [Function: isInNodeModules],
+        preTransformRequests: false,
+        createEnvironment: [Function: defaultCreateDevEnvironment],
+        recoverable: false,
+        moduleRunnerTransform: true
+      },
+      build: {
+        target: [ 'chrome107', 'edge107', 'firefox104', 'safari16' ],
+        polyfillModulePreload: true,
+        modulePreload: { polyfill: true },
+        outDir: 'public/build',
+        assetsDir: 'assets',
+        assetsInlineLimit: 0,
+        sourcemap: false,
+        terserOptions: {},
+        rollupOptions: { input: 'resources/js/app.js' },
+        commonjsOptions: { include: [ /node_modules/ ], extensions: [ '.js', '.cjs' ] },
+        dynamicImportVarsOptions: { warnOnError: true, exclude: [ /node_modules/ ] },
+        write: true,
+        emptyOutDir: null,
+        copyPublicDir: true,
+        license: false,
+        manifest: 'manifest.json',
+        lib: false,
+        ssrManifest: false,
+        ssrEmitAssets: false,
+        reportCompressedSize: true,
+        chunkSizeWarningLimit: 500,
+        watch: null,
+        cssCodeSplit: true,
+        minify: false,
+        ssr: true,
+        emitAssets: true,
+        createEnvironment: [Function: createEnvironment],
+        cssTarget: [ 'chrome107', 'edge107', 'firefox104', 'safari16' ],
+        cssMinify: 'esbuild'
+      },
+      plugins: [
+        {
+          name: 'vite:build-metadata',
+          renderChunk: [AsyncFunction: renderChunk]
+        },
+        {
+          name: 'vite:watch-package-data',
+          buildStart: [Function: buildStart],
+          buildEnd: [Function: buildEnd],
+          watchChange: [Function: watchChange]
+        },
+        {
+          name: 'alias',
+          buildStart: [AsyncFunction: buildStart],
+          resolveId: [Function: resolveId]
+        },
+        {
+          name: 'vite:modulepreload-polyfill',
+          resolveId: {
+            filter: { id: /^vite\/modulepreload\-polyfill$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ vite\/modulepreload\-polyfill\.js$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:resolve',
+          resolveId: {
+            filter: { id: { exclude: /^(?:\0|\/?virtual:)/ } },
+            handler: [AsyncFunction: handler]
+          },
+          load: {
+            filter: {
+              id: [
+                /^__vite\-browser\-external/,
+                /^__vite\-optional\-peer\-dep/
+              ]
+            },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:html-inline-proxy',
+          resolveId: {
+            filter: { id: /[?&]html-proxy\b/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /[?&]html-proxy\b/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:css',
+          buildStart: [Function: buildStart],
+          buildEnd: [Function: buildEnd],
+          load: {
+            filter: {
+              id: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                include: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/,
+                exclude: [
+                  /[?&]commonjs-proxy/,
+                  /[?&](?:worker|sharedworker|raw|url)\b/
+                ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'vite:esbuild',
+          configureServer: [Function: configureServer],
+          transform: [AsyncFunction: transform]
+        },
+        {
+          name: 'vite:json',
+          transform: {
+            filter: {
+              id: {
+                include: /\.json(?:$|\?)(?!commonjs-(?:proxy|external))/,
+                exclude: /[?&](?:worker|sharedworker|raw|url)\b/
+              }
+            },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:wasm-helper',
+          resolveId: {
+            filter: { id: /^ vite\/wasm\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: [
+                /^ vite\/wasm\-helper\.js$/,
+                /(?<![?#].*)\.wasm\?init/
+              ]
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'vite:worker',
+          buildStart: [Function: buildStart],
+          load: {
+            filter: { id: /(?:\?|&)(worker|sharedworker)(?:&|$)/ },
+            handler: [AsyncFunction: handler]
+          },
+          transform: {
+            filter: { id: /(?:\?|&)worker_file&type=(\w+)(?:&|$)/ },
+            handler: [AsyncFunction: handler]
+          },
+          renderChunk: [Function: renderChunk],
+          generateBundle: [Function: generateBundle],
+          watchChange: [Function: watchChange]
+        },
+        {
+          name: 'vite:asset',
+          perEnvironmentStartEndDuringDev: true,
+          buildStart: [Function: buildStart],
+          resolveId: { handler: [Function: handler] },
+          load: {
+            filter: { id: { exclude: /^\0/ } },
+            handler: [AsyncFunction: handler]
+          },
+          renderChunk: [Function: renderChunk],
+          generateBundle: [Function: generateBundle]
+        },
+        {
+          name: 'vite:vue',
+          api: { options: [Getter/Setter], version: '5.2.4' },
+          handleHotUpdate: [Function: handleHotUpdate],
+          config: [Function: config],
+          configResolved: [Function: configResolved],
+          shouldTransformCachedModule: [Function: shouldTransformCachedModule],
+          configureServer: [Function: configureServer],
+          buildStart: [Function: buildStart],
+          resolveId: [AsyncFunction: resolveId],
+          load: [Function: load],
+          transform: [Function: transform]
+        },
+        {
+          name: 'vite:wasm-fallback',
+          load: { filter: { id: /\.wasm$/ }, handler: [Function: handler] }
+        },
+        {
+          name: 'vite:define',
+          transform: { handler: [AsyncFunction: handler] }
+        },
+        {
+          name: 'vite:css-post',
+          renderStart: [Function: renderStart],
+          transform: {
+            filter: {
+              id: {
+                include: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/,
+                exclude: [
+                  /[?&]commonjs-proxy/,
+                  /[?&](?:worker|sharedworker|raw|url)\b/
+                ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          },
+          renderChunk: [AsyncFunction: renderChunk],
+          augmentChunkHash: [Function: augmentChunkHash],
+          generateBundle: [AsyncFunction: generateBundle]
+        },
+        {
+          name: 'vite:build-html',
+          transform: {
+            filter: { id: /\.html$/ },
+            handler: [AsyncFunction: handler]
+          },
+          generateBundle: [AsyncFunction: generateBundle]
+        },
+        {
+          name: 'vite:force-amd-wrap-require',
+          renderChunk: [Function: renderChunk]
+        },
+        {
+          name: 'vite:force-systemjs-wrap-complete',
+          renderChunk: [Function: renderChunk]
+        },
+        {
+          name: 'vite:prepare-out-dir',
+          options: [Function: options],
+          renderStart: { order: 'pre', handler: [Function: handler] }
+        },
+        {
+          name: 'commonjs',
+          version: '29.0.0',
+          options: [Function: options],
+          buildStart: [Function: buildStart],
+          buildEnd: [Function: buildEnd],
+          load: [AsyncFunction: load],
+          shouldTransformCachedModule: [Function: shouldTransformCachedModule],
+          transform: [Function: transform]
+        },
+        {
+          name: 'vite:data-uri',
+          buildStart: [Function: buildStart],
+          resolveId: [Function: resolveId],
+          load: [Function: load]
+        },
+        {
+          name: 'vite:dynamic-import-vars',
+          resolveId: {
+            filter: { id: /^ vite\/dynamic\-import\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ vite\/dynamic\-import\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                exclude: /^\/Volumes\/Samsung NVMe\/Development\/web_projects\/laravel_projects\/ngo\/node_modules\/vite\/dist\/client\/client\.mjs$/
+              },
+              code: /\bimport\s*[(/]/
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'vite:import-glob',
+          buildStart: [Function: buildStart],
+          transform: {
+            filter: { code: 'import.meta.glob' },
+            handler: [AsyncFunction: handler]
+          },
+          hotUpdate: [Function: hotUpdate]
+        },
+        {
+          name: 'laravel',
+          enforce: 'post',
+          config: [Function: config],
+          configResolved: [Function: configResolved],
+          transform: [Function: transform],
+          configureServer: [Function: configureServer]
+        },
+        {
+          name: 'vite:build-import-analysis',
+          resolveId: {
+            filter: { id: /^ vite\/preload\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ vite\/preload\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          transform: {
+            filter: { code: /import\s*\(/ },
+            handler: [AsyncFunction: handler]
+          },
+          renderChunk: [Function: renderChunk],
+          generateBundle: [Function: generateBundle]
+        },
+        {
+          name: 'vite:esbuild-transpile',
+          applyToEnvironment: [Function: applyToEnvironment],
+          renderChunk: [AsyncFunction: renderChunk]
+        },
+        {
+          name: 'vite:license',
+          generateBundle: [AsyncFunction: generateBundle]
+        },
+        {
+          name: 'vite:manifest',
+          perEnvironmentStartEndDuringDev: true,
+          applyToEnvironment: [Function: applyToEnvironment],
+          buildStart: [Function: buildStart],
+          generateBundle: [Function: generateBundle]
+        },
+        {
+          name: 'vite:reporter',
+          sharedDuringBuild: true,
+          perEnvironmentStartEndDuringDev: true,
+          transform: [Function: transform],
+          buildStart: [Function: buildStart],
+          buildEnd: [Function: buildEnd],
+          renderStart: [Function: renderStart],
+          renderChunk: [Function: renderChunk],
+          generateBundle: [Function: generateBundle],
+          writeBundle: [AsyncFunction: writeBundle]
+        },
+        {
+          name: 'vite:load-fallback',
+          load: { handler: [AsyncFunction: handler] }
+        }
+      ]
+    }
+  },
+  configFile: '/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/vite.config.js',
+  configFileDependencies: [
+    '/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/vite.config.js'
+  ],
+  inlineConfig: {
+    root: undefined,
+    base: undefined,
+    mode: undefined,
+    configFile: undefined,
+    configLoader: undefined,
+    logLevel: undefined,
+    clearScreen: undefined,
+    build: {}
+  },
+  root: '/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo',
+  decodedBase: '/build/',
+  rawBase: '/build/',
+  cacheDir: '/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/.vite',
+  command: 'build',
+  mode: 'production',
+  isWorker: false,
+  mainConfig: null,
+  bundleChain: [],
+  isProduction: true,
+  css: {
+    transformer: 'postcss',
+    preprocessorMaxWorkers: true,
+    devSourcemap: false
+  },
+  json: { namedExports: true, stringify: 'auto' },
+  esbuild: { jsxDev: false, charset: 'utf8', legalComments: 'none' },
+  builder: undefined,
+  preview: {
+    port: 4173,
+    strictPort: false,
+    host: undefined,
+    allowedHosts: [
+      '__laravel_vite_placeholder__.test',
+      '__laravel_vite_placeholder__.test'
+    ],
+    https: undefined,
+    open: false,
+    proxy: undefined,
+    cors: {
+      origin: [
+        /^https?:\/\/(?:(?:[^:]+\.)?localhost|127\.0\.0\.1|\[::1\])(?::\d+)?$/,
+        'http://localhost',
+        /^https?:\/\/.*\.test(:\d+)?$/
+      ]
+    },
+    headers: {}
+  },
+  envDir: '/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo',
+  env: {
+    VITE_APP_NAME: 'Laravel',
+    BASE_URL: '/build/',
+    MODE: 'production',
+    DEV: false,
+    PROD: true
+  },
+  assetsInclude: [Function: assetsInclude],
+  logger: {
+    hasWarned: false,
+    info: [Function: info],
+    warn: [Function (anonymous)],
+    warnOnce: [Function: warnOnce],
+    error: [Function: error],
+    clearScreen: [Function: clearScreen],
+    hasErrorLogged: [Function: hasErrorLogged]
+  },
+  packageCache: Map(1) {
+    'fnpd_/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo' => {
+      dir: '/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo',
+      data: {
+        '$schema': 'https://www.schemastore.org/package.json',
+        private: true,
+        type: 'module',
+        scripts: { build: 'vite build', dev: 'vite' },
+        devDependencies: {
+          '@inertiajs/vue3': '^2.0.0',
+          '@tailwindcss/forms': '^0.5.3',
+          '@tailwindcss/vite': '^4.0.0',
+          '@vitejs/plugin-vue': '^5.0.0',
+          autoprefixer: '^10.4.12',
+          axios: '^1.11.0',
+          concurrently: '^9.0.1',
+          'laravel-vite-plugin': '^2.0.0',
+          postcss: '^8.4.31',
+          tailwindcss: '^3.2.1',
+          vite: '^7.0.7',
+          vue: '^3.4.0'
+        },
+        dependencies: { 'chart.js': '^4.5.1', 'vue-chartjs': '^5.3.3' }
+      },
+      hasSideEffects: [Function: hasSideEffects],
+      setResolvedCache: [Function: setResolvedCache],
+      getResolvedCache: [Function: getResolvedCache]
+    },
+    set: [Function (anonymous)]
+  },
+  worker: { format: 'iife', plugins: '() => plugins', rollupOptions: {} },
+  appType: 'spa',
+  experimental: {
+    importGlobRestoreExtension: false,
+    renderBuiltUrl: undefined,
+    hmrPartialAccept: false
+  },
+  future: undefined,
+  optimizeDeps: {
+    include: [],
+    exclude: [],
+    needsInterop: [],
+    extensions: [],
+    disabled: undefined,
+    holdUntilCrawlEnd: true,
+    force: false,
+    ignoreOutdatedRequests: false,
+    noDiscovery: false,
+    esbuildOptions: { preserveSymlinks: false }
+  },
+  dev: {
+    warmup: [],
+    sourcemap: { js: true },
+    sourcemapIgnoreList: [Function: isInNodeModules],
+    preTransformRequests: false,
+    createEnvironment: [Function: defaultCreateDevEnvironment],
+    recoverable: false,
+    moduleRunnerTransform: false
+  },
+  webSocketToken: 'e9PB05c-bGJi',
+  getSortedPlugins: [Function: getSortedPlugins],
+  getSortedPluginHooks: [Function: getSortedPluginHooks],
+  createResolver: [Function: createResolver],
+  fsDenyGlob: [Function: arrayMatcher],
+  safeModulePaths: Set(0) {},
+  [Symbol(vite:resolved-config)]: true
+}
+vite v7.3.1 building client environment for production...
+transforming...
+✓ 12 modules transformed.
+✗ Build failed in 147ms
+error during build:
+[vite:vue] [plugin vite:vue] resources/js/Pages/Collections/Report.vue (125:25): Invalid end tag.
+file: /Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/resources/js/Pages/Collections/Report.vue:125:25
+SyntaxError: [plugin vite:vue] resources/js/Pages/Collections/Report.vue (125:25): Invalid end tag.
+    at createCompilerError (/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/@vue/compiler-core/dist/compiler-core.cjs.prod.js:1374:17)
+    at emitError (/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/@vue/compiler-core/dist/compiler-core.cjs.prod.js:2980:5)
+    at Object.onclosetag (/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/@vue/compiler-core/dist/compiler-core.cjs.prod.js:2387:9)
+    at Tokenizer.stateInClosingTagName (/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/@vue/compiler-core/dist/compiler-core.cjs.prod.js:799:16)
+    at Tokenizer.parse (/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/@vue/compiler-core/dist/compiler-core.cjs.prod.js:1157:16)
+    at Object.baseParse (/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/@vue/compiler-core/dist/compiler-core.cjs.prod.js:3012:13)
+    at Object.parse (/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.prod.js:665:23)
+    at Object.parse$1 [as parse] (/Volumes/Samsung NVMe/Development/web_projects/laravel_projects/ngo/node_modules/@vue/compiler-sfc/dist/compiler-sfc.cjs.js:1824:24)
+    at createDescriptor (file:///Volumes/Samsung%20NVMe/Development/web_projects/laravel_projects/ngo/node_modules/@vitejs/plugin-vue/dist/index.mjs:71:43)
+    at transformMain (file:///Volumes/Samsung%20NVMe/Development/web_projects/laravel_projects/ngo/node_modules/@vitejs/plugin-vue/dist/index.mjs:2421:34)
